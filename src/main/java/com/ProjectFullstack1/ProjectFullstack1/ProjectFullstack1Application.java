@@ -1,0 +1,13 @@
+package com.ProjectFullstack1.ProjectFullstack1;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ProjectFullstack1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ProjectFullstack1Application.class, args);
+	}
+
+}
