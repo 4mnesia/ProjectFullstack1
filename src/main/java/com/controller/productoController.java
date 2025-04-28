@@ -18,18 +18,18 @@ public class productoController {
     @GetMapping("/{idproducto}")
     public String getProductString(@PathVariable("idproducto") int idproducto) {
         var productos = new String[10];
-        productos[0] = "Manzana";    
-        productos[1] = "arroz";
-        productos[2] = "peras";
-        productos[3] = "uvas";
-        productos[4] = "weas";
-        productos[5] = "ewfwfew";
-        productos[6] = "gag";
-        productos[7] = "egwggr";
-        productos[8] = "kyuyuyj";
-        productos[9] = "trntrntrn";
-        //productos[10] = "weas";
-        //productos[11] = "weas";
+            productos[0] = "Manzana";    
+            productos[1] = "arroz";
+            productos[2] = "peras";
+            productos[3] = "uvas";
+            productos[4] = "weas";
+            productos[5] = "ewfwfew";
+            productos[6] = "gag";
+            productos[7] = "egwggr";
+            productos[8] = "kyuyuyj";
+            productos[9] = "trntrntrn";
+            //productos[10] = "weas";
+            //productos[11] = "weas";
 
 
 
